@@ -16,15 +16,7 @@ client.on("ready", () => {
 client.on("messageCreate", (message) => {
     if(message.content === "ping") {
         message.reply({
-            content: "pong", 
-    })
-    }
-})
-
-client.on("messageCreate", (message) => {
-    if(message.content === "m- test") {
-        message.reply({
-            content: "Ich bin der beste Bot der Welt", 
+            content: "pong!!!", 
     })
     }
 })
